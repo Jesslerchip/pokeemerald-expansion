@@ -28,7 +28,7 @@ gBattleAnims_Moves::
 	.4byte Move_ICE_PUNCH
 	.4byte Move_THUNDER_PUNCH
 	.4byte Move_SCRATCH
-	.4byte Move_VICE_GRIP
+	.4byte Move_VISE_GRIP
 	.4byte Move_GUILLOTINE
 	.4byte Move_RAZOR_WIND
 	.4byte Move_SWORDS_DANCE
@@ -15491,7 +15491,7 @@ Move_PAIN_SPLIT:
 	createvisualtask AnimTask_PainSplitMovement, 2, ANIM_TARGET, 2
 	end
 
-Move_VICE_GRIP:
+Move_VISE_GRIP:
 	loadspritegfx ANIM_TAG_CUT
 	loadspritegfx ANIM_TAG_IMPACT
 	monbg ANIM_DEF_PARTNER

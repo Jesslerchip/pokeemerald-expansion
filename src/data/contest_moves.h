@@ -87,7 +87,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
     {
         .effect = CONTEST_EFFECT_HIGHLY_APPEALING,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
-        .comboStarterId = COMBO_STARTER_VICE_GRIP,
+        .comboStarterId = COMBO_STARTER_VISE_GRIP,
         .comboMoves = {0}
     },
 
@@ -96,7 +96,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_BADLY_STARTLE_MONS_WITH_GOOD_APPEALS,
         .contestCategory = CONTEST_CATEGORY_COOL,
         .comboStarterId = 0,
-        .comboMoves = {COMBO_STARTER_VICE_GRIP},
+        .comboMoves = {COMBO_STARTER_VISE_GRIP},
     },
 
     [MOVE_RAZOR_WIND] =
@@ -160,7 +160,7 @@ const struct ContestMove gContestMoves[MOVES_COUNT] =
         .effect = CONTEST_EFFECT_DONT_EXCITE_AUDIENCE,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
         .comboStarterId = 0,
-        .comboMoves = {COMBO_STARTER_VICE_GRIP},
+        .comboMoves = {COMBO_STARTER_VISE_GRIP},
     },
 
     [MOVE_SLAM] =
