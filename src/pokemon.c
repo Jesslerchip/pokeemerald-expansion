@@ -3195,8 +3195,7 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
             shinyRolls += I_SHINY_CHARM_REROLLS;
         #endif
         
-        if (gIsFishingEncounter)
-            shinyRolls += 1 + 2 * gChainFishingStreak; //1 + 2 rolls per streak count. max 41
+        shinyRolls += 1 + 2 * gChainFishingStreak; //1 + 2 rolls per streak count. max 41
         
         if (shinyRolls)
         {
