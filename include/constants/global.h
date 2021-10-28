@@ -120,5 +120,6 @@
 #define DIR_NORTHEAST   8
 
 #define DYNAMIC_OW_PALS         FALSE
+#define MAX_CHAIN_FISHING_STREAK    20
 
 #endif // GUARD_CONSTANTS_GLOBAL_H
