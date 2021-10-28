@@ -7587,4 +7587,18 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 255  //signature z move
     },
+
+    // Rotomboard
+    [ITEM_ROTOMBOARD] =
+    {
+        .name = _("Rotomboard"),
+        .itemId = ITEM_ROTOMBOARD,
+        .price = 0,
+        .description = sRotomboardDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
 };
